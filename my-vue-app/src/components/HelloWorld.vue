@@ -1,3 +1,4 @@
+// filepath: /c:/Users/datnq/Desktop/feature-interview/my-vue-app/src/components/HelloWorld.vue
 <script setup>
 defineProps({
   msg: {
@@ -9,9 +10,9 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="text-success">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
+      You’ve successfully created a project with Dat
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
