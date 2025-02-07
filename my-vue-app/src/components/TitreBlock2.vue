@@ -27,6 +27,9 @@
 </template>
 
 <style scoped>
+    .wrapper-map {
+        position: relative;
+    }
     .item-map span {
         font-size: 20px;
         font-weight: 500;
