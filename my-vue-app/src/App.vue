@@ -1,47 +1,28 @@
+// filepath: /c:/Users/datnq/Desktop/feature-interview/my-vue-app/src/App.vue
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HeaderBanner from './components/HeaderBanner.vue'
+import TitreBlock1 from './components/TitreBlock1.vue'
+import Titre from './components/Titre.vue'
+import DeBasic from './components/DeBasic.vue'
+import Footer from './components/Footer.vue'
+import MaskGroup from './components/MaskGroup.vue'
+import TitreBlock2 from './components/TitreBlock2.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <HeaderBanner />
   </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <TitreBlock1 />
+  <TitreBlock2 />
+  <Titre />
+  <DeBasic />
+  <MaskGroup />
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
+/* Kiểm tra CSS để đảm bảo không có lỗi */
 </style>
